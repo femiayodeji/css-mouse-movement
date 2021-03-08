@@ -12,6 +12,17 @@
 	background:#001300;
 	display: flex;
     flex-wrap: wrap;
+    animation: changeColor 5s linear infinite;
+}
+
+@keyframes changeColor
+{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
 }
 
 span.pixel{
@@ -45,3 +56,5 @@ span.pixel:hover::before{
     transform: scale(1);
     transition: 0s;
 }
+
+  
