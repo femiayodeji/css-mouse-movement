@@ -19,3 +19,18 @@ body{
 	width: 100%;
 	height: 100%;
 }
+
+span.pixel{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: -2px;
+    transition: 5s;
+}
+
+span.pixel:hover, span.pixel:focus{
+    background: #f80000;
+    box-shadow: 4px 2px 4px #7a7676;
+    transition: 0.2s;
+}
